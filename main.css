@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #092a59;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: #00ff001a;
+}
+
+#sports h2 {
+    color: #006b00;
+}
+
+#sports .articles article a {
+    background-color: #30754f;
+}
+
+#sports .articles article a:hover {
+    background-color: #3a8e5e;
+}
+
+#sports .articles article a:active {
+    background-color: #1f4a3a;
+}
+
+#economy {
+    background-color: #ffff001a;
+}
+
+#economy h2 {
+    color: #7f6f00;
+}
+
+#economy .articles article a {
+    background-color: #7f6f00;
+}
+
+#economy .articles article a:hover {
+    background-color: #9b8a00;
+}
+
+#economy .articles article a:active {
+    background-color: #5a4b00;
+}
+
+#entertainment {
+    background-color: #e100ff1a;
+}
+
+#entertainment h2 {
+    color: #8409b8;
+}
+
+#entertainment .articles article a {
+    background-color: #55066d;
+}
+
+#entertainment .articles article a:hover {
+    background-color: #8011b0;
+}
+
+#entertainment .articles article a:active {
+    background-color: #600558;
+}
+
+#technology {
+    background-color: #0000ff1a;
+}
+
+#technology h2 {
+    color: #00007f;
+}
+
+#technology .articles article a {
+    background-color: #00307f;
+}
+
+#technology .articles article a:hover {
+    background-color: #004fbe;
+}
+
+#technology .articles article a:active {
+    background-color: #001f4a;
+}
